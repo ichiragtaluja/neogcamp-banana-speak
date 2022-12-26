@@ -19,6 +19,29 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
         }
+
+        .output {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 1rem;
+        }
+
+        #btn-translate {
+            margin: 1rem;
+            padding: .3rem .5rem;
+            font-size: larger;
+        }
+
+        #output {
+            border: 1px solid black;
+            height: 10vh;
+            border-radius: 0.6rem;
+            padding: 0.5rem 0.7rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            width: 90%;
+            margin: 1rem;
+            display: block;
+
+        }
     </style>
     
 </head>
@@ -26,6 +49,9 @@
     <h1>Talk Banana</h1>
     <textarea id="text-input" placeholder="Put your sentence in English here and we will convert it to Banana!"></textarea>
     <button id="btn-translate">Translate</button>
+    
+    <div class="output">Output will come here 👇.</div>
+    <div id="output"></div>
 
 
     <script src="app.js" type="text/javascript"></script>

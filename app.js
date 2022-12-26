@@ -2,9 +2,12 @@ var btnTranslate = document.querySelector("#btn-translate");
 
 var textInput = document.querySelector("#text-input");
 
+var outputDiv = document.querySelector("#output"); 
+
+outputDiv.innerText ="ggg"
+
 function clickHandler() {
-    console.log("clicked");
-    console.log(textInput.value)
+    outputDiv.innerText ="hjhgjgj" + textInput.value;
 };
 
 
