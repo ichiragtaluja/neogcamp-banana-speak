@@ -1,7 +1,7 @@
 
 :root {
-    --background-color: #F1C40F;
-    --alternate-color: #F4D03F;
+    --background-color: #fefce8;
+    --alternate-color: #eab308;
 }
 
 body {
@@ -16,7 +16,7 @@ nav {
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     margin-bottom: 5rem;
-    color: white;
+    color: var(--alternate-color);
     line-height: 0px;
     
 
@@ -35,7 +35,7 @@ textarea {
     margin-bottom: 1.5rem;
     border-radius: .4rem;
     padding: .5rem .7rem;
-    border-color: #757575;
+    border-color: var(--alternate-color)
     
 
   
@@ -50,7 +50,7 @@ textarea {
    padding: .8rem 3rem;
    font-size: 1rem;
    border-radius: .4rem;
-   color: white;
+   color:rgb(201, 145, 5);
    background-color: var(--background-color);
    
    
@@ -63,7 +63,7 @@ textarea {
 }
 
 #output {
-    border: 1px solid rgb(100, 100, 100);
+    border: 1px solid var(--alternate-color);
     height: 10vh;
     width: 90%;
     display: block;
